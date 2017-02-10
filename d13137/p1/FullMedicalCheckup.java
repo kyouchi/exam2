@@ -6,7 +6,7 @@ public class FullMedicalCheckup extends MinimumMedicalCheckup{
 	public boolean male;//男性ならtrue
 
 	public FullMedicalCheckup(double height, double weight){
-		super(height, weight);
+		super(height, weight);//継承元のclassのInstanceを作成
 		this.age=18;
 		this.male=true;
 	}
